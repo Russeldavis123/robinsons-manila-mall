@@ -215,7 +215,7 @@ void ukuran(int lebar, int tinggi) {
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluPerspective(80.0, lebar / tinggi, 5.0, 500.0);
-    glTranslatef(0.0, -5.0, -150.0);
+    gluPerspective(100.0, lebar / tinggi, 5.0, 4000.0);
+    glTranslatef(0.0, -5.0, -300.0);
     glMatrixMode(GL_MODELVIEW);
 }
